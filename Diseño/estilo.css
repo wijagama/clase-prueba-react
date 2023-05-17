@@ -1,0 +1,157 @@
+body {
+
+    background-image: url(/Imagenes/guita.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 0;
+    background-position: left top;
+}
+
+bg-image{
+    opacity: 0.5;
+}
+header {
+    border: 2px solid rgb(35, 17, 17);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+
+
+    box-shadow: 0 1px #a2a9b1;
+
+}
+
+section {
+    border: 2px solid rgb(35, 17, 17);
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 20px;
+}
+
+#ajuste {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: symbols;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.lista-escalones li {
+    margin-bottom: 10px;
+}
+
+.lista-escalones li a {
+    display: block;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+
+
+div.gallery {
+
+    margin: 22px;
+    border: 1px solid #ccc;
+    float: initial;
+    width: 136px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form{
+    width: 8px;
+font-weight: bold
+}
+form input[type="text"],
+form input[type="email"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+  }
+button{
+    display: inline-block;
+}
+.gallery{
+    display: inline-block;
+}
+
+#footer{
+text-align: center;
+}
